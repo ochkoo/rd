@@ -15,7 +15,7 @@ function Layout({children}) {
         <Header/>
         <div className="container main-layout">
           <Navigation/>
-          {children}
+            {children}
         </div>
       </Wrapper>
   )
